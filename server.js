@@ -11,7 +11,7 @@ const proverbs = [
   {
     id: 2,
     ja: 'コードを書くたび、何かが壊され、そして生まれる',
-    en: 'Every act of programming is an act of destruction',
+    en: 'Each act of coding tears something down to build anew.',
   },
 ];
 
