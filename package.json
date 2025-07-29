@@ -1,0 +1,30 @@
+{
+  "name": "dev-wisdom",
+  "version": "0.0.1",
+  "description": "A simple REST API that delivers random programming wisdom (proverbs).",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/striderkein/dev-wisdom.git"
+  },
+  "keywords": [
+    "REST",
+    "proverb",
+    "express",
+    "Node",
+    "Render"
+  ],
+  "author": "striderkein@users.noreply.github.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/striderkein/dev-wisdom/issues"
+  },
+  "homepage": "https://github.com/striderkein/dev-wisdom#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
