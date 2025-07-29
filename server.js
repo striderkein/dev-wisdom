@@ -13,6 +13,11 @@ const proverbs = [
     ja: 'コードを書くたび、何かが壊され、そして生まれる',
     en: 'Each act of coding tears something down to build anew.',
   },
+  {
+    id: 3,
+    ja: 'エラーハンドリングに手を抜けば、いずれ十倍の時間を失うことになる。',
+    en: 'Skimping on error handling will cost you tenfold in the end.',
+  },
 ];
 
 app.get('/api/proverbs', (req, res) => {
