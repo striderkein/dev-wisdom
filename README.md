@@ -18,6 +18,6 @@ Example response:
   {
     id: 1,
     ja: 'よい命名は知識を構築する',
-    en: 'Good naming builds knowledge.',
+    en: 'Good naming builds knowledge.'
   }
 ```
