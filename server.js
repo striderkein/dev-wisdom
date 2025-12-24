@@ -81,7 +81,5 @@ app.get('/', (req, res) => {
 });
 
 app.listen(port, () => {
-  if (process.env.NODE_ENV === 'local') {
-    console.log(`Dev Wisdom API running at http://localhost:${port}`);
-  }
+  console.log(`Dev Wisdom API running${process.env.NODE_ENV === 'local' ? ` at http://localhost:${port}` : ''}`);
 });
