@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express');
 const app = express();
 const port = process.env.PORT || 3000;
@@ -40,6 +41,12 @@ app.get('/api/proverbs/:id', (req, res) => {
   res.json(proverb);
 });
 
+app.get('/', (req, res) => {
+  res.send('Dev Wisdom API is running!');
+});
+
 app.listen(port, () => {
-  console.log(`Dev Wisdom API running at http://localhost:${port}`);
+  if (process.env.NODE_ENV === 'local') {
+    console.log(`Dev Wisdom API running at http://localhost:${port}`);
+  }
 });

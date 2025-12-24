@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "A simple REST API that delivers random programming wisdom (proverbs).",
   "main": "server.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -25,6 +28,7 @@
   },
   "homepage": "https://github.com/striderkein/dev-wisdom#readme",
   "dependencies": {
+    "dotenv": "^17.2.3",
     "express": "^5.1.0"
   }
 }
