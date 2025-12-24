@@ -30,8 +30,16 @@ Returns a randomly selected proverb.
 Example response:
 ```json
   {
-    id: 1,
-    ja: 'よい命名は知識を構築する',
-    en: 'Good naming builds knowledge.'
+    "id": 1,
+    "ja": "よい命名は知識を構築する",
+    "en": "Good naming builds knowledge."
   }
+```
+
+## How to Develop
+
+```sh
+cp .env.example .env
+npm i
+npm start
 ```
