@@ -8,16 +8,37 @@ const proverbs = [
     id: 1,
     ja: 'よい命名は知識を構築する',
     en: 'Good naming builds knowledge',
+    author: 'Anonymous',
   },
   {
     id: 2,
     ja: 'コードを書くたび、何かが壊され、そして生まれる',
     en: 'Each act of coding tears something down to build anew.',
+    author: 'Anonymous',
   },
   {
     id: 3,
     ja: 'エラーハンドリングに手を抜けば、いずれ十倍の時間を失うことになる。',
     en: 'Skimping on error handling will cost you tenfold in the end.',
+    author: 'Anonymous',
+  },
+  {
+    id: 4,
+    ja: '大いなる力には、大いなる責任が伴う',
+    en: 'With great power comes great responsibility.',
+    author: 'Benjamin Parker',
+  },
+  {
+    id: 5,
+    ja: '我々の間には、チームプレーなどという都合のよい言い訳は存在せん。有るとすればスタンドプレーから生じる、チームワークだけだ',
+    en: 'We don’t have convenient excuses like team plays here at Section 9. There’s just teamwork that comes about as a result of a grandstand play.',
+    author: '荒巻大輔',
+  },
+  {
+    id: 6,
+    ja: 'バグを憎んで人を憎まず',
+    en: 'Hate the bug, not the programmer.',
+    author: 'Anonymous',
   },
 ];
 
