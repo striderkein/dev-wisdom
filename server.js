@@ -30,7 +30,7 @@ const proverbs = [
   },
   {
     id: 5,
-    ja: '我々の間には、チームプレーなどという都合のよい言い訳は存在せん。有るとすればスタンドプレーから生じる、チームワークだけだ',
+    ja: '我々の間にはチームプレーなどという都合のよい言い訳は存在せん。あるとすれば、スタンドプレーから生じるチームワークだけだ',
     en: 'We don’t have convenient excuses like team plays here at Section 9. There’s just teamwork that comes about as a result of a grandstand play.',
     author: '荒巻大輔',
   },
